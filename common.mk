@@ -186,7 +186,6 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.crda.sh \
     init.mdm.sh \
     init.qcom.coex.sh \
     init.qcom.early_boot.sh \
