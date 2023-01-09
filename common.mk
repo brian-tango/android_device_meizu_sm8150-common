@@ -192,7 +192,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
-    init.qcom.factory.rc \
     init.qcom.rc \
     init.target.rc \
     init.qcom.power.rc \
