@@ -76,6 +76,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Inherit from the proprietary version
 -include vendor/meizu/sm8150-common/BoardConfigVendor.mk
