@@ -74,6 +74,8 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msmnile
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno640
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/meizu/sm8150-common/BoardConfigVendor.mk
