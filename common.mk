@@ -385,6 +385,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+# Tetheroffload
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.control@1.0 \
+    android.hardware.tetheroffload.config@1.0 \
+    android.hardware.tetheroffload.config@1.0.vendor \
+    android.hardware.tetheroffload.control@1.0.vendor
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
